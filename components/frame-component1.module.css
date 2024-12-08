@@ -1,0 +1,199 @@
+.h2FeatureSection1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.1px;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.h2FeatureSection1Wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-63xl) 0 var(--padding-64xl);
+}
+.paragraph {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--h6-size);
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  color: var(--second-text-color);
+  text-align: center;
+}
+.desktopShopCards31Inner,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 347px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.desktopShopCards31Inner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+}
+.cardCover20Icon {
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.cardCover20Icon,
+.cardCover20Parent,
+.filterIcon {
+  height: 100%;
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.filterIcon {
+  left: 1px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.cardCover20Parent {
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.h2 {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 41px;
+}
+.cardContent,
+.cardItem,
+.mediaBgCover {
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.cardContent {
+  background-color: var(--light-background-color);
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-xs) var(--padding-45xl);
+  z-index: 2;
+}
+.cardItem,
+.mediaBgCover {
+  flex: 1;
+  max-width: 100%;
+}
+.mediaBgCover {
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-407xl) var(--padding-12xl) var(--padding-7xl);
+  box-sizing: border-box;
+  position: relative;
+}
+.cardItem {
+  background-color: var(--light-background-color);
+  min-width: 331px;
+}
+.cardItem,
+.cardItems,
+.tripleCardItem {
+  display: flex;
+  align-items: flex-start;
+}
+.tripleCardItem {
+  width: 240px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.cardItems {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--h5-size);
+}
+.desktopShopCards31,
+.desktopShopCards31Wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.desktopShopCards31 {
+  flex: 1;
+  background-color: var(--light-gray-1);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-61xl) var(--padding-176xl);
+  gap: var(--gap-29xl);
+}
+.desktopShopCards31Wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-61xl);
+  text-align: left;
+  font-size: var(--h3-size);
+  color: var(--text-color);
+  font-family: var(--h6);
+}
+@media screen and (max-width: 1200px) {
+  .desktopShopCards31Wrapper {
+    padding-bottom: var(--padding-33xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .mediaBgCover {
+    padding-top: var(--padding-258xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .desktopShopCards31 {
+    gap: var(--gap-5xl);
+    padding: var(--padding-33xl) var(--padding-78xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .h2FeatureSection1 {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .h2FeatureSection1Wrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .desktopShopCards31 {
+    padding: var(--padding-15xl) var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .desktopShopCards31Wrapper {
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,138 @@
+.fixedHeightIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.h5ProductTitle {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+}
+.h5ProductTitleWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs);
+}
+.linkProductCategory {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+.linkProductCategoryWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs);
+  font-size: var(--h6-size);
+  color: var(--second-text-color);
+}
+.h5Price,
+.h5Price1 {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+}
+.h5Price1 {
+  color: var(--secondary-color-1);
+}
+.secondOldPrice {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.ellipseDiv,
+.productColorsChild,
+.productColorsInner,
+.productColorsItem {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--primary-text-color);
+}
+.ellipseDiv,
+.productColorsInner,
+.productColorsItem {
+  background-color: var(--secondary-color-1);
+}
+.ellipseDiv,
+.productColorsInner {
+  background-color: var(--alert-color);
+}
+.ellipseDiv {
+  background-color: var(--text-color);
+}
+.productColors {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs-1);
+}
+.productColorsWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-3xs) 0 var(--padding-4xs);
+}
+.frameWrapper,
+.productColorsWrapper,
+.secondOldPriceParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.secondOldPriceParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-mini);
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-3xl);
+  color: var(--muted-text-color);
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.frameParent,
+.productCard,
+.productCardInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.productCardInner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-27xl);
+}
+.productCard {
+  width: 239px;
+  background-color: var(--light-background-color);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 0 0 var(--padding-16xl);
+  box-sizing: border-box;
+  gap: var(--gap-6xl);
+  text-align: center;
+  font-size: var(--h5-size);
+  color: var(--text-color);
+  font-family: var(--h6);
+}

@@ -1,0 +1,99 @@
+.bandage {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.1px;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.facebookIcon,
+.twitterIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.twitterIcon {
+  height: 19.8px;
+}
+.twitterWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs-1);
+}
+.socialContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.socialContainerWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.bandageParent {
+  width: 987.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.div,
+.hr {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.hr {
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gainsboro-100);
+  z-index: 1;
+}
+.div {
+  background-color: var(--light-gray-1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-34xl) var(--padding-168xl) var(--padding-9xs)
+    var(--padding-176xl);
+  gap: var(--gap-34xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--h3-size);
+  color: var(--text-color);
+  font-family: var(--h6);
+}
+@media screen and (max-width: 825px) {
+  .div {
+    gap: var(--gap-7xl);
+    padding-left: var(--padding-78xl);
+    padding-right: var(--padding-74xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .bandage {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .bandageParent {
+    flex-wrap: wrap;
+  }
+  .div {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

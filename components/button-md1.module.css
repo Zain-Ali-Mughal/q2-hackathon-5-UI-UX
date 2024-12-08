@@ -1,0 +1,31 @@
+.buttonName {
+  height: 22px;
+  position: relative;
+  font-size: var(--h6-size);
+  letter-spacing: 0.2px;
+  line-height: 22px;
+  display: inline-block;
+  font-family: var(--h6);
+  color: var(--light-background-color);
+  text-align: center;
+}
+.root {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-21xl);
+  background-color: var(--success-color);
+  border-radius: var(--br-8xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.root[data-dropdown="false"][data-icon="false"][data-iconLeft="true"][data-next="false"][data-ourlined="true"][data-play="false"][data-previous="false"][data-rounded="false"][data-text="true"] {
+  border: 1px solid var(--success-color);
+  background-color: transparent;
+}
+.root[data-dropdown="false"][data-icon="false"][data-iconLeft="true"][data-next="false"][data-ourlined="true"][data-play="false"][data-previous="false"][data-rounded="false"][data-text="true"]
+  .buttonName {
+  color: var(--success-color);
+}

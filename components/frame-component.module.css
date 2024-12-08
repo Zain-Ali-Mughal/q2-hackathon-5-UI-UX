@@ -1,0 +1,211 @@
+.h5 {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+}
+.h5Wrapper {
+  width: 119px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.h5Container,
+.h5Parent,
+.h5Wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.h5Container {
+  width: 115px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.h5Parent {
+  width: 823px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.link {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+.footerLinksColumn,
+.footerLinksColumn1 {
+  flex: 0.8592;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  min-width: 92px;
+}
+.footerLinksColumn1 {
+  flex: 0.863;
+  min-width: 95px;
+}
+.link8 {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+.footerLinksColumn2 {
+  flex: 1;
+  min-width: 92px;
+}
+.footerLinksColumn2,
+.footerLinksColumn3,
+.footerLinksContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.footerLinksContainer {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-17xl);
+  min-width: 419px;
+  max-width: 100%;
+}
+.yourEmail {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 28px;
+}
+.emailPlaceholder {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0 0;
+}
+.inputGroupText {
+  flex: 1;
+  position: relative;
+  font-size: var(--h6-size);
+  letter-spacing: 0.2px;
+  line-height: 28px;
+  font-family: var(--h6);
+  color: var(--light-background-color);
+  text-align: center;
+  display: inline-block;
+  min-width: 73px;
+}
+.btn,
+.formControlInputStyle1 {
+  border: 1px solid var(--color-gainsboro-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.btn,
+.btn:hover {
+  box-sizing: border-box;
+}
+.btn {
+  cursor: pointer;
+  padding: var(--padding-smi) var(--padding-2xl);
+  background-color: var(--primary-text-color);
+  height: 58px;
+  border-radius: 0 var(--br-8xs) var(--br-8xs) 0;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.btn:hover {
+  background-color: var(--color-steelblue);
+  border: 1px solid var(--color-lightgray);
+}
+.formControlInputStyle1 {
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke);
+  justify-content: space-between;
+  padding: 0 var(--padding-11xs) 0 var(--padding-lg);
+  gap: var(--gap-xl);
+}
+.formTextWrapper,
+.newsletter {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.formTextWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-12xs) 0 var(--padding-11xs);
+  font-size: var(--small-size);
+}
+.newsletter {
+  width: 321px;
+  flex-direction: column;
+  gap: var(--gap-12xs);
+  max-width: 100%;
+}
+.footerLinksContainerParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-57xl);
+  font-size: var(--h6-size);
+  color: var(--second-text-color);
+}
+.footerLinksContainerParent,
+.frameParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1041px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-10xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--h5-size);
+  color: var(--text-color);
+  font-family: var(--h6);
+}
+@media screen and (max-width: 1200px) {
+  .footerLinksContainerParent {
+    gap: var(--gap-19xl);
+  }
+}
+@media screen and (max-width: 825px) {
+  .h5Parent {
+    flex-wrap: wrap;
+  }
+  .footerLinksContainer {
+    gap: var(--gap-lg);
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .footerLinksContainerParent {
+    gap: var(--gap-lgi);
+  }
+}
+@media screen and (max-width: 450px) {
+  .footerLinksColumn,
+  .footerLinksColumn1 {
+    flex: 1;
+  }
+}
